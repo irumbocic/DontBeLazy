@@ -1,0 +1,28 @@
+﻿@page "{taskId:int?}"
+@model DontBeLazy.Pages.Tasks.EditModel
+@{
+    ViewData["Title"] = "Edit";
+    var header = Model.MyTask.Id > 0 ? "Edit" : "Create";
+}
+
+<h2>@header Task:</h2>
+
+
+<form method="post">
+    <input type="hidden" asp-for="MyTask.Id" />
+    <div class="form-group">
+        <label asp-for="MyTask.Name"></label>
+        <input asp-for="MyTask.Name" class="form-control" />
+        <span asp-validation-for="MyTask.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MyTask.DueAt"></label>
+        <input asp-for="MyTask.DueAt" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="MyTask.TaskType"></label>
+        <select class="form-control" asp-for="MyTask.TaskType"asp-items="Model.SelectType">
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

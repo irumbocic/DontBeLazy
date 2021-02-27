@@ -1,0 +1,43 @@
+﻿@page "{taskId:int}"
+@model DontBeLazy.Pages.Tasks.WorkOnTaskModel
+@{
+    ViewData["Title"] = "Work On Task";
+}
+
+<h2>Working on task: @Model.MyTask.Name </h2>
+
+<br />
+
+<h6>When done, just click the "Stop" button to mark your time.</h6>
+
+<br />
+
+<form method="get">
+
+    @*<input type="hidden" asp-for="TaskStat.Id" />*@
+    <div class="form-group">
+        <label asp-for="TaskStat.Id"></label>
+        <input asp-for="TaskStat.Id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TaskStat.StartTime"></label>
+        <input asp-for=@DateTime.Now class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TaskStat.TaskId"></label>
+        <input asp-for="TaskStat.TaskId" class="form-control" />
+    </div>
+
+</form>
+
+
+<form method="post">
+    <div class="form-group">
+        <div class="input-group">
+           @* <label asp-for="TaskStat.Id"></label>*@
+            <input type="hidden" value="@Model.TaskStat.Id" name="id" />
+            <button type="submit" class="btn btn-secondary">Stop</button>
+        </div>
+    </div>
+</form>
+

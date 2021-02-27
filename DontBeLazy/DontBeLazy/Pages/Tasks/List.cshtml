@@ -1,0 +1,56 @@
+﻿@page 
+@model DontBeLazy.Pages.Tasks.ListModel
+@{
+    ViewData["Title"] = "Tasks";
+}
+
+<h1>List of Tasks</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-info">Search</button>
+            </span>
+        </div>
+    </div>
+</form>
+
+
+
+
+<table class="table">
+    <tr>
+        <td>Task Name</td>
+        <td>Due At</td>
+        <td>Task Type</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        @*koje vrhunske html vjestine... skuzi kako produziti onu crtu bez ovih td*@
+
+    </tr>
+    @foreach (var task in Model.MyTask)
+    { 
+    <tr>
+        <td>@task.Name</td>
+        <td>@task.DueAt</td>
+        <td>@task.TaskType</td>
+        <td>
+            <a class="btn btn-primary" asp-page="./Detail" asp-route-taskId="@task.Id">Details</a>
+        </td>
+        <td>
+            <a class="btn btn-primary" asp-page="./Edit" asp-route-taskId="@task.Id">Edit</a>
+        </td>
+        <td>
+            <a class="btn btn-primary" asp-page="./WorkOnTask" asp-route-taskId="@task.Id">Work On Task</a>
+        </td>
+
+    </tr>
+    }
+</table>
+
+
+
+<div>@Model.Message</div>

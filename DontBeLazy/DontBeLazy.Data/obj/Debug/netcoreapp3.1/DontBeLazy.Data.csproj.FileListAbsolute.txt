@@ -1,0 +1,15 @@
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Data.deps.json
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Data.dll
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Data.pdb
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Core.dll
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Core.pdb
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.csprojAssemblyReference.cache
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.AssemblyInfoInputs.cache
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.AssemblyInfo.cs
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.csproj.CoreCompileInputs.cache
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.csproj.CopyComplete
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.dll
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.pdb
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Data.runtimeconfig.json
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\bin\Debug\netcoreapp3.1\DontBeLazy.Data.runtimeconfig.dev.json
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Data\obj\Debug\netcoreapp3.1\DontBeLazy.Data.genruntimeconfig.cache

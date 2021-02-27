@@ -1,0 +1,25 @@
+﻿@model IEnumerable<DontBeLazy.Core.WorkOnTasksSummary>
+
+<h2>Working on Tasks - Summary (by task Id)</h2>
+<br />
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>Task Id</th>
+            <th>Summary (min)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var workingTask in Model)
+        {
+            <tr>
+                <td>
+                    @workingTask.TaskId
+                </td>
+                <td>
+                    @Math.Round(workingTask.Summary,2)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

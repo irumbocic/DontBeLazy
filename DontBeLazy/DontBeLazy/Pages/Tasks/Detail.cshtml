@@ -1,0 +1,34 @@
+﻿@page "{taskId:int}"
+@model DontBeLazy.Pages.Tasks.DetailModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+@if (TempData["message"] != null)
+{
+    <div class="col-sm-8">
+        <div class="alert alert-primary">
+            @TempData["message"]
+        </div>
+    </div>
+}
+
+
+
+<h1>@Model.MyTask.Name</h1>
+
+<div>
+    Id: @Model.MyTask.Id
+</div>
+<div>
+    Due At: @Model.MyTask.DueAt
+</div>
+<div>
+    Task Type: @Model.MyTask.TaskType
+</div>
+
+<br />
+
+<a asp-page="./List" class="btn btn-primary">Back to Tasks</a>

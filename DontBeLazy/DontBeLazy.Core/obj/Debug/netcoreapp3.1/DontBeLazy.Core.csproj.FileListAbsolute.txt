@@ -1,0 +1,9 @@
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\bin\Debug\netcoreapp3.1\DontBeLazy.Core.deps.json
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\bin\Debug\netcoreapp3.1\DontBeLazy.Core.dll
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\bin\Debug\netcoreapp3.1\DontBeLazy.Core.pdb
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\obj\Debug\netcoreapp3.1\DontBeLazy.Core.csprojAssemblyReference.cache
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\obj\Debug\netcoreapp3.1\DontBeLazy.Core.AssemblyInfoInputs.cache
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\obj\Debug\netcoreapp3.1\DontBeLazy.Core.AssemblyInfo.cs
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\obj\Debug\netcoreapp3.1\DontBeLazy.Core.csproj.CoreCompileInputs.cache
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\obj\Debug\netcoreapp3.1\DontBeLazy.Core.dll
+C:\myproject\DontBeLazy\DontBeLazy\DontBeLazy.Core\obj\Debug\netcoreapp3.1\DontBeLazy.Core.pdb

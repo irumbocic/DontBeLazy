@@ -1,0 +1,39 @@
+﻿@page
+@model DontBeLazy.Pages.Tasks.StatisticsModel
+@{
+    ViewData["Title"] = "Task Statistics";
+}
+
+
+<div >
+    @await Component.InvokeAsync("TasksSummary")
+</div>
+<br />
+
+<h2>Task Statistics</h2>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <td>Id</td>
+            <td>Started Working</td>
+            <td>Ended Working</td>
+            <td>Total Work Time</td>
+            <td>Task Id</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var stat in Model.TaskStat)
+        {
+            <tr>
+                <td>@stat.Id</td>
+                <td>@stat.StartTime</td>
+                <td>@stat.EndTime</td>
+                <td>@Math.Round(stat.WorkTime, 2)</td>
+                <td>@stat.TaskId</td>
+            </tr>
+
+        }
+    </tbody>
+</table>
