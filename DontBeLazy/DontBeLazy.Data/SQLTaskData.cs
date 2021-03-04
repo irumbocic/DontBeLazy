@@ -25,7 +25,6 @@ namespace DontBeLazy.Data
 
         public TaskStatistics AddNewLine(TaskStatistics newLine, string startTime, string endTime)
         {
-            //newLine.Id = context.TaskStatistics.Max(s => s.Id) + 1;
             newLine.StartTime = startTime;
             newLine.EndTime = endTime;
             newLine.WorkTime = (DateTime.Parse(newLine.EndTime) - DateTime.Parse(newLine.StartTime)).TotalMinutes;
